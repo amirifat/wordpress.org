@@ -1,0 +1,114 @@
+@media(max-width: 1199px){
+	
+}
+
+@media(max-width: 991px){
+	.navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    }
+    .navbar-nav .nav-item .nav-link {
+    padding: 15px 12px;
+    }
+   .carousel-caption h1{
+   	font-size: 45px;
+   	margin-bottom: 15px;
+   }
+   .btn-custom-reverse {
+    font-size: 16px;
+    padding: 7px 16px;
+   }
+   .btn-custom{
+   	font-size: 16px;
+   	padding: 7px 16px;
+   }
+    
+}
+
+@media(max-width: 767px){
+
+   .heading {
+    font-size: 45px;
+    text-align: center;
+   }
+
+ .heading span {
+    font-size: 60px;
+    }
+	.resume-box .resume span {
+    font-size: 14px;
+    padding: 4px 10px;
+   }
+   .resume-box .resume h5 {
+    font-size: 16px;
+   }
+   .resume-box .resume h1 {
+    font-size: 18px;
+   }
+   .resume-box .resume p {
+ 
+    font-size: 13px;
+   }
+   .skills-heading {
+    margin-top: 80px;
+    }
+    h4 {
+    margin-top: 80px;
+    }
+    .work-list .btn {
+    margin: 8px 16px;
+   }
+    .carousel-item{
+    	min-height: 70vh;
+    }
+}
+
+@media(max-width: 575px){
+	.navbar-nav {
+    flex-direction: column;
+    text-align: right;
+    }
+    .navbar-nav .nav-item .nav-link::after {
+    	content: none;
+    }
+    .navbar-nav .nav-item .nav-link::before {
+    	content: none;
+    }
+    .navbar-nav .nav-item .nav-link
+    {
+    padding: 10px 15px;
+    }
+    .navbar {
+    padding: 0 15px;
+    }
+    .work-list .btn {
+    font-size: 14px;
+    margin: 10px 12px;
+    }
+     .footer-social a ul li i {
+    font-size: 30px;
+    }
+   .footer-social a ul li span {
+    display: block;
+    margin-top: 0px;
+    }
+    footer li {
+    font-size: 14px;
+    text-align: center;
+    }
+    .question-section h1 {
+    color: #fff;
+    font-size: 30px;
+    }
+    .question-section .modal-btn {
+    font-size: 13px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    }
+    .carousel-item{
+    	min-height: 50vh;
+    }
+}
+
+@media(max-width: 420px){
+}
